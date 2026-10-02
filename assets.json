@@ -1,0 +1,20 @@
+{
+  "gold": {
+    "series": "KXGOLD15M",
+    "label": "Gold",
+    "settles_on": "Pyth 1OZGOLD/USD, 1-minute candle close",
+    "hl_coin": "xyz:GOLD",
+    "yahoo": "GC=F",
+    "decimals": 2,
+    "sigma_proxy_default": 1.08
+  },
+  "wti": {
+    "series": "KXWTI15M",
+    "label": "WTI oil",
+    "settles_on": "Pyth PYTHOIL/USD, 1-minute candle close",
+    "hl_coin": "xyz:CL",
+    "yahoo": "CL=F",
+    "decimals": 2,
+    "sigma_proxy_default": 0.019
+  }
+}
