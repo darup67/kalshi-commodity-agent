@@ -1,0 +1,32 @@
+
+== Gold (KXGOLD15M): 430 evaluations logged, 24 calls settled
+hit rate 19/24 = 79.2% · expected 90.8% · Brier 0.1793 · paper EV at ask -6.1¢/contract (no orders placed)
+by minute of the first call in each window (1 separate days; 95% range treats calls as independent, so it is too narrow):
+  min    n   hit    ask   EV¢/contract   95% range
+    3    1  0.0%  0.72      -74.0      [-74.0, -74.0]
+    4    2 50.0%  0.67      -19.0      [-59.0, +21.0]
+    6    3 66.7%  0.88      -22.5      [-84.0, +10.0]
+    7    2 100.0%  0.91       +8.2      [+6.5, +10.0]
+    8    3 66.7%  0.84      -18.6      [-80.0, +16.0]
+    9    3 100.0%  0.87      +12.1      [+5.3, +18.0]
+   10    3 100.0%  0.83      +15.3      [+11.0, +20.0]
+   11    2 50.0%  0.77      -28.5      [-88.0, +31.0]
+   12    1 100.0%  0.87      +12.0      [+12.0, +12.0]
+   13    4 100.0%  0.90       +8.9      [+2.3, +18.6]
+  Not proven until 10+ separate days of calls.
+
+== WTI oil (KXWTI15M): 850 evaluations logged, 43 calls settled
+hit rate 37/43 = 86.0% · expected 89.7% · Brier 0.1200 · paper EV at ask +3.4¢/contract (no orders placed)
+by minute of the first call in each window (2 separate days; 95% range treats calls as independent, so it is too narrow):
+  min    n   hit    ask   EV¢/contract   95% range
+    3    9 100.0%  0.81      +17.6      [+11.9, +24.3]
+    4    4 75.0%  0.82       -8.8      [-57.5, +19.5]
+    6    4 100.0%  0.74      +24.0      [+16.0, +32.0]
+    7    4 75.0%  0.84      -10.1      [-61.5, +20.4]
+    8    4 75.0%  0.85      -10.9      [-62.0, +22.6]
+    9    3 100.0%  0.85      +14.1      [+6.2, +21.0]
+   10    7 85.7%  0.82       +2.5      [-27.3, +20.4]
+   11    3 66.7%  0.86      -20.7      [-88.0, +14.0]
+   12    3 100.0%  0.75      +23.0      [+15.0, +35.0]
+   13    2 50.0%  0.75      -26.9      [-58.0, +4.2]
+  Not proven until 10+ separate days of calls.
